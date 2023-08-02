@@ -27,7 +27,7 @@ public class LearnerController {
     @RequestMapping(value = "/remove/learner", method = RequestMethod.GET)
     public String removeLearner(@RequestParam("id") Long id){
         learnerService.deleteLearner(id);
-        return "Learner removed";
+        return "Learner removed by Linh";
     }
 
 }
